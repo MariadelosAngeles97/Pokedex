@@ -1,5 +1,5 @@
 import React from 'react'
-import './Buscador.css'
+import '../styles/Buscador.css'
 import { Search } from './Icons'
 
 function Buscador() {

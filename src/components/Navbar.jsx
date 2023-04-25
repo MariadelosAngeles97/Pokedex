@@ -1,5 +1,5 @@
 import { Logo, Moon, Sun } from './Icons';
-import './Navbar.css'
+import '../styles/Navbar.css'
 import React from 'react';
 
 const Navbar = () => {

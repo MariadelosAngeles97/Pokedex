@@ -1,4 +1,4 @@
-import './Pokemones.css'
+import '../styles/Pokemones.css'
 import usePokemones from '../hooks/usePokemones'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import Loader from './Loader'
