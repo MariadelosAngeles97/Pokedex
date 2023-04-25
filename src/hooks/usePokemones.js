@@ -24,7 +24,7 @@ function usePokemones() {
         return {
           id: poke.id,
           name: poke.name,
-          img: poke.sprites.other.dream_world.front_default || poke.srites.front_default
+          img: poke.sprites.other.dream_world.front_default || poke.srites.front_default,
         
         }
       })

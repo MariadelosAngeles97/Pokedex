@@ -2,10 +2,17 @@ import '../styles/Pokemones.css'
 import usePokemones from '../hooks/usePokemones'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import Loader from './Loader'
+import { useNavigate  } from 'react-router-dom';
+
+
 
 function Pokemon({id, name, img}){
+  // const navigate = useNavigate();
+
   return(
     <div className='pokemon-card'>
+      {/* <button href='/Cards' onClick={() => navigate('/cards')}>info</button> */}
+
       <img src={img} alt={name} className='pokemon-img'/>
       <p className='pokemon-title'>
         <span>#{id}</span>
